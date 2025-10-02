@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="new.css">
+    <style>
+      .icon{
+        width: 45px;
+        height: 60px;
+        
+        padding: 10px;
+        border-radius: 12px;
+
+      }
+      .icon:hover{
+        background-color: #aaa;
+      }
+      .icon:active{
+        background-color: antiquewhite;
+      }
+      
+      div{
+        margin-left: 20px;
+      }
+      .icon2{
+        display: flex;
+        justify-self: center;
+        color: white;
+      }
+      p{
+        font-size: small;
+        font-weight: 700;
+        
+        font-size: clamp(10px, 8px, 8px);
+        color: white;
+      }
+      aside{
+        margin-left: -20px;
+        display: flex;
+        
+        width: 85px;
+      }
+      .ytimage{
+        height: 60px;
+        width: 60px;
+        margin-left: 50px;
+        
+      }
+      header{
+        margin-bottom: 10px;
+      }
+      .hamburger{
+              
+        position: absolute;    
+        top: 10px;             
+        left: 10px;            
+        cursor: pointer; 
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      .input-search{
+        display: flex;
+        margin-bottom: 10px;
+        width: 550px;
+        border-radius: 30px;
+        padding: 20px;
+        margin-top: -54px;
+      }
+      .microphone{
+        width: 60px;
+        height: 60px;
+        background-color: rgb(44, 81, 81);
+        border-radius: 100px;
+      }
+      button{
+        border: 1px solid;
+        border-radius: 5px;
+        display: inline-block;
+        justify-content: space-between;
+        margin-right: 5px;
+        padding: 7px;
+        border-radius: 13px;
+        
+      }
+      button:active{
+        background-color: rgb(255, 255, 255);
+        color: rgb(9, 9, 9);
+      }
+      button:hover{
+        background-color: rgb(0, 0, 0);
+        color: white;
+      }
+      aside{
+        display: inline-block;
+      }button:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);}
+
+    button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    color: black;
+  }
+  button{
+    border: 1px solid;
+    border-radius: 7px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 5px;
+    padding: 8px;
+    background-color: grey;
+    
+  }
+    </style>
+
+  </head>
+    <body style="background-color: rgb(27, 27, 26);">
+      <header>
+        <i class="fas fa-bars menu hamburger" style="color: white;"></i>
+        <img class="ytimage" src="images/download.png" alt="youtube">
+        <form>
+          <div style=" display:flex;  justify-content: center;">
+            <label for="search"></label>
+            <input class="input-search" type="search" id="search" name="ytsearch" placeholder="search..." style="border: solid; height: 30px;">
+          </div>
+         </form>
+         
+         
+      </header>
+      <div style="margin: 10px; overflow: auto;">
+        <button>ALL</button>
+        <button>Gaming</button>
+        <button>Live</button>
+        <button>Call of Duty:Mobile</button>
+        <button>Comic Books</button>
+        <button>Ed Sheeran</button>
+        <button>Anime</button>
+        <button>Music</button>
+        <button>Laliga</button>
+        <button>Premier League</button>
+        <button>Movies</button>
+        <button>TV shows</button>
+        <button>Memes</button>
+        <button>Music</button>
+        <button>Laliga</button>
+        
+      </div>
+      <main style="display: flex; margin-top: 20px;" >
+      <aside>
+      <div class="icon">
+        <i class="fas fa-home icon2"></i>
+        <p style="text-align: center;">Home</p>
+      </div>
+
+      <div class="icon">
+        <i class="fa fa-arrow-down icon2" aria-hidden="true"></i>
+        <p style="text-align: center;">Downloads</p>
+      </div>
+
+      <div class="icon">
+        <i class="fa fa-user icon2" aria-hidden="true"></i>
+        <p style="text-align: center;">You</p>
+      </div>
+
+      <div class="icon">
+        <i class="fa fa-video-camera icon2" aria-hidden="true"></i>
+        <p style="text-align: center;">Shorts</p>
+      </div>
+    </aside>
+  
+  <div style="display: inline-block;">
+    <div class="video-preview"><img style="width: 100%;" class="video-image" src="images/balarke.jpeg">
+      <div class="video-description">
+    <div class="profile-image-c"><img class="profile-image" src="images/space.jpg"></div>
+    
+      <div class="description">
+       <p class="video-title">Hello, this is my first youtube video</p>
+       <b><p class="video-author">BALARKE. 20 days ago</p></b>
+      </div>
+    </div>
+
+    </div>
+    
+    <div class="video-preview"><img style="width: 100%;" class="video-image" src="images/thumbnail1.avif">
+      <div class="video-description">
+    <div class="profile-image-c"><img class="profile-image" src="images/channels4_profile.jpg"></div>
+    
+      <div class="description">
+       <p class="video-title">Villans who CHOSE violence</p>
+       <b><p class="video-author">Wves. 13 days ago</p></b>
+      </div>
+    </div>
+   </div>
+
+   
+   <div class="video-preview"><img style="width: 100%;" class="video-image" src="images/hq720.avif">
+    <div class="video-description">
+  <div class="profile-image-c"><img class="profile-image" src="images/channels4_profile (1).jpg"></div>
+  
+    <div class="description">
+     <p class="video-title">The Iphone 17promax vs the Samsung Galaxy s25 Ultra</p>
+     <b><p class="video-author">BPageBros. 17 day ago</p></b>
+    </div>
+  </div>
+   </div>
+
+  
+  <div class="video-preview"><img style="width: 100%; margin-top: 10px;" class="video-image" src="images/hqdefault.avif">
+    <div class="video-description">
+  <div class="profile-image-c"><img class="profile-image" src="images/channels4_profile (2).jpg"></div>
+  
+    <div class="description">
+     <p class="video-title">The new FC26 is FINALLY out!!!</p>
+     <b><p class="video-author">NICK. 1 week ago</p></b>
+    </div>
+  </div>
+  </div>
+</div>
+</main>
+
+
+
+    </body>
+  
+</html>
